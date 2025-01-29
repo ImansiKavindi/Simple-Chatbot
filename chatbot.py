@@ -15,28 +15,44 @@ analyzer = SentimentIntensityAnalyzer()
 
 # Define Bot Responses
 responses = {
-    "sad": [
+     "sad": [
         "It's okay to feel sad sometimes. The sun will shine again.",
         "Tough times don’t last, but tough people do.",
         "You are allowed to feel not okay, but don't let it define you.",
+        "Feeling sad is a natural part of life's ebb and flow. You're not alone.",
+       "In the midst of sadness, remember, tomorrow is a new day filled with possibilities.",
+       "Your strength is greater than any sadness you may feel. Keep pushing forward.",
+       "Allow yourself to feel sad today, knowing that brighter days are ahead.",
         "Healing takes time, but you're getting closer to peace."
     ],
     "failure": [
         "Failure is simply the opportunity to begin again.",
         "Don’t be afraid to fail. Be afraid of not trying.",
         "Every setback is a setup for a comeback.",
+        "Failure is a stepping stone towards success. Keep moving forward.",
+        "Every failure brings a lesson that prepares you for the next challenge.",
+         "Your resilience in the face of failure is a testament to your growth.",
+        "Don't let failure define your journey; let it refine your path to greatness.",
         "Your mistakes don’t define you; they refine you."
     ],
     "love": [
         "Love is not about perfection, it's about growth.",
         "True love is built on trust and patience.",
         "Sometimes the right person comes at the wrong time.",
+        "Love is a journey of discovery, both of others and of yourself.",
+        "Cherish the love you have today, for it shapes the memories of tomorrow.",
+        "Love grows through understanding, compassion, and shared experiences.",
+        "The beauty of love lies in its ability to inspire and uplift us in unexpected ways.",
         "Love yourself first, and everything else falls into place."
     ],
     "default": [
         "I'm here to help. Can you tell me more about how you're feeling?",
         "I'm listening. Please share your thoughts with me.",
         "It's okay to open up. What's on your mind?",
+        "You're stronger than you know. Take your time, and let me know how I can support you.",
+        "It's okay to feel what you're feeling. I'm here to listen whenever you're ready.",
+        "You're not alone in this. Reach out whenever you need a listening ear.",
+        "Remember, every challenge is a chance for growth. You're on a path to brighter days.",
         "I'm here for you. Feel free to express yourself."
     ]
 }
